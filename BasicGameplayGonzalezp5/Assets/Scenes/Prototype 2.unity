@@ -443,7 +443,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 45
-  orthographic: 0
+  orthographic: 1
   orthographic size: 10
   m_Depth: -1
   m_CullingMask:
@@ -548,6 +548,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 633016604}
+  - component: {fileID: 633016605}
   m_Layer: 0
   m_Name: spawnManager
   m_TagString: Untagged
@@ -570,6 +571,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &633016605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 633016603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b8a8fd50a30bea45b508cb2501ccdd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animalPrefabs:
+  - {fileID: 3497210625107690259, guid: 3b16e461262d7f14a97438cb8f43ded0, type: 3}
+  - {fileID: 2543104244457529493, guid: c46e4f3cae7024a4ea031b9174b771bc, type: 3}
+  - {fileID: 6835007964346493245, guid: 7a3eedb57b8f41e4abd8e7b059d2b6e7, type: 3}
 --- !u!1 &992285705
 GameObject:
   m_ObjectHideFlags: 0
