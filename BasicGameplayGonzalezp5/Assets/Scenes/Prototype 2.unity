@@ -583,9 +583,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b8a8fd50a30bea45b508cb2501ccdd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animalPrefabs:
-  - {fileID: 3497210625107690259, guid: 3b16e461262d7f14a97438cb8f43ded0, type: 3}
+  animals:
+  - {fileID: 6835007964346493245, guid: 7a3eedb57b8f41e4abd8e7b059d2b6e7, type: 3}
   - {fileID: 2543104244457529493, guid: c46e4f3cae7024a4ea031b9174b771bc, type: 3}
+  sideAnimals:
+  - {fileID: 3497210625107690259, guid: 3b16e461262d7f14a97438cb8f43ded0, type: 3}
   - {fileID: 6835007964346493245, guid: 7a3eedb57b8f41e4abd8e7b059d2b6e7, type: 3}
 --- !u!1 &992285705
 GameObject:
@@ -781,9 +783,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33de47207494aed449d5632d215ab2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  horizontalinput: 1
+  horizontalinput: 5
+  verticalInput: 5
   speed: 20
   xRange: 15
+  zRange: 5
   projectilePrefab: {fileID: 8228427265822300127, guid: c8e53ee3e3445544f825c4bd64419ea8, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

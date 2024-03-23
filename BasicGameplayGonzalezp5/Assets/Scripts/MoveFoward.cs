@@ -5,14 +5,25 @@ using UnityEngine;
 public class MoveFoward : MonoBehaviour
 {
     // Start is called before the first frame update
-    void Start()
+    static private int score = 0;
+    static private int lives = 3;
+
+
+    public void AddLives(int value)
     {
-        
+        lives += value;
+        if (lives <= 0)
+        {
+            Debug.Log("Game Over!");
+            lives = 0;
+
+        }
+        Debug.Log("Lives=" + lives);
     }
-    public float speed = 40.0f;
-    // Update is called once per frame
-    void Update()
+
+    public void AddScores(int value)
     {
-       transform.Translate(Vector3.forward * Time.deltaTime * speed); 
+        score += value;
+        Debug.Log("Score = " + score);
     }
 }
